@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
        try (Car car=new Car()){
-           driver();
+           car.driver();
        }catch (RuntimeException ignore){
 
        }
@@ -12,7 +12,5 @@ public class Main {
 
     }
 
-    private static void driver() {
-        System.out.println("машина журуп жатат");
-    }
+
 }

@@ -5,6 +5,7 @@ public class Car implements AutoCloseable {
     }
 
 
-    public Car() {
+ public   void driver() {
+        System.out.println("машина журуп жатат");
     }
 }
